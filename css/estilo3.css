@@ -1,0 +1,162 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg{
+    background-image: url("../img/20160710_mm18_NovaQuest_026.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    padding: 20px 0;
+}
+.menu{
+    padding-top: 30px;
+    width: 100%;
+    text-align: right;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+a:hover{
+    color: dodgerblue;
+}
+.fundo{
+    width: 100%;
+    height: 730px;
+    position: relative;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+h1{
+    text-align: center;
+    top: 10px ;
+    font-size: 45px;
+    color: white;
+    margin-top: 50px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;    
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.imagem__produto1{
+    margin-left: 30px;
+    padding: 50px;
+    font-size: 25px;
+}
+.imagem__produto2{
+    margin-left: 60px;
+    padding: 50px;
+    font-size: 25px;
+}
+.imagem__produto3{
+    margin-left: 15px;
+    padding: 50px;
+    font-size: 25px;
+}
+img{
+    width: 50%;
+    height: 50%;    
+    clear: both;    
+    border-radius: 15px;
+    background-color: gray;
+}
+a1{
+    font-size: 20px;
+}
+a2{
+    font-size: 20px;
+}
+a3{
+    font-size: 20px;
+}
+a1:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+a2:hover{
+    font-size: 20px;
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+a3:hover{
+    font-size: 20px;
+    color: dodgerblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+.picture{
+    padding: 20px;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.texto{
+    padding: 10px;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+}
+@media screen and (max-width: 375px){
+    .menu{
+        padding: 0 -20rem;
+        text-align: center;
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 414px){
+    .menu{
+        padding: 0 -20rem;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 414px){
+    .container__caixa{
+    margin: auto;
+    width: 100%;    
+    padding: 15px;
+    }
+}
+@media screen and (max-width: 320px){
+    .menu{
+        padding: 0 -20rem;
+        justify-content: center;
+        font-size: 11px;
+    }
+}
