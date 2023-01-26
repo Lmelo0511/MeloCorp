@@ -115,6 +115,10 @@ header{
     h2{
         font-size: 20px;
     }
+    .Cadastro{
+        margin-top: 60px;
+        padding: -20px;
+    }
 }
 @media screen and (max-width: 320px){
     .Cadastro{
