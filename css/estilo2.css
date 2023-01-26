@@ -61,16 +61,6 @@ h1{
     font-size: 45px;
     margin-top: 50px;
 }
-@media screen and (max-width: 375px){
-    .menu{
-        padding: 0 -20rem;
-        text-align: center;
-        font-size: 9px;
-    }
-    h1{
-        font-size: 35px;
-    }
-}
 @media screen and (max-width: 414px){
     .menu{
         padding: 0 -20rem;
@@ -78,13 +68,22 @@ h1{
         font-size: 15px;
     }
 }
+@media screen and (max-width: 375px){
+    .menu{
+        padding: 0 -20rem;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 1.5em;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
 @media screen and (max-width: 320px){
     .menu{
         padding: 0 -20rem;
-        justify-content: center;
+        text-align: left;
         font-size: 11px;
-    }
-    h1{
-        font-size: 30px;
+        margin-left: 1em;
     }
 }
