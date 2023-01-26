@@ -87,7 +87,7 @@ header{
     font-weight: bold;
     margin-right: 15px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px){
     .Senha{
         margin-top: 10%;
     }
