@@ -75,8 +75,8 @@ h1{
         font-size: 13px;
         margin-left: 2em;
     }
-    h2{
-        font-size:15px
+    h1{
+        font-size: 20px
     }
 }
 @media screen and (max-width: 375px){
