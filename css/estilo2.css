@@ -68,6 +68,14 @@ h1{
         font-size: 15px;
     }
 }
+@media screen and (max-width: 390px){
+    .menu{
+        padding: 0 -20rem;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 2em;
+    }
+}
 @media screen and (max-width: 375px){
     .menu{
         padding: 0 -20rem;
