@@ -87,31 +87,9 @@ img{
     border-radius: 15px;
     background-color: gray;
 }
-a1{
-    font-size: 20px;
-}
-a2{
-    font-size: 20px;
-}
-a3{
-    font-size: 20px;
-}
-a1:hover{
-    color: dodgerblue;
-    cursor: pointer;
+a{
     text-decoration: none;
-}
-a2:hover{
-    font-size: 20px;
-    color: dodgerblue;
-    cursor: pointer;
-    text-decoration: none;
-}
-a3:hover{
-    font-size: 20px;
-    color: dodgerblue;
-    cursor: pointer;
-    text-decoration: none;
+    color: white;
 }
 .picture{
     padding: 20px;
