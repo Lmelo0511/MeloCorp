@@ -17,7 +17,7 @@ body{
 }
 .Cadastro{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(105, 105, 105, 1);
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
