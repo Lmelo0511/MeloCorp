@@ -2,7 +2,7 @@ body{
     height: 100%;
     margin: 0;
 }
-.bg{
+.corpo{
     background-image: url("../img/nova-quest38253.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@ body{
     border-radius: 15px;
     padding: 20px;
 }
-input{
+.colocando__dados{
     padding: 19px;
     border: none;
     outline: none;
@@ -50,13 +50,13 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-h1{
+.titulo1{
     text-align: center;
     top: 10px ;
     font-size: 45px;
     color: white;
 }
-h2{
+.titulo2{
     float: center;
     text-align: center;
     top: 0;
@@ -64,7 +64,7 @@ h2{
     color: white; 
     margin-bottom: 30px;
 }
-button{
+.botao{
     background-color: dodgerblue;
     border: none;
     padding: 15px;
@@ -77,7 +77,7 @@ button{
 .botao:hover{
     background-color: deepskyblue;
 }
-header{
+.menu__principal{
     padding: 20px 0;
 }
 .menu{
@@ -92,27 +92,27 @@ header{
     margin-right: 15px;
 }
 @media screen and (max-width: 414px){
-    input{
+    .colocando__dados{
         padding: 4px;
     }
-    h1{
+    .titulo1{
         font-size: 25px;
         padding: 10px;
     }
-    h2{
+    .titulo2{
         font-size: 20px;
     }
 }
 @media screen and (max-width: 375px){
-    input{
+    .colocando__dados{
         padding: 4px;
         display: flex;
     }
-    h1{
+    .titulo1{
         font-size: 25px;
         padding: 10px;
     }
-    h2{
+    .titulo2{
         font-size: 20px;
     }
     .Cadastro{
@@ -123,14 +123,15 @@ header{
 @media screen and (max-width: 320px){
     .Cadastro{
         padding: -20px;
+        margin-top: 5%;
     }
-    h1{
+    .titulo1{
         font-size: 15px;
     }
-    h2{
+    .titulo2{
         font-size: 15px;
     }
-    button{
+    .botao{
         padding: 4px;
     }
 }

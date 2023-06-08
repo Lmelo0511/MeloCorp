@@ -2,47 +2,42 @@ body{
     height: 100%;
     margin: 0;
 }
+.bg{
+    background-image: url("../img/nova-quest38253.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.corpo{
-    background-image: url("../img/nova-quest36249.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-.Senha{
+.Cadastro{
     position: absolute;
     background-color: rgba(105, 105, 105, 1);
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
-    padding: 50px;
+    padding: 20px;
 }
-.menu__principal{
-    padding: 8px;
+input{
+    padding: 19px;
     border: none;
     outline: none;
     font-size: 15px;
     border-radius: 10px;
-    width: 100%;
+    width: 200px;
+    margin-top: 15px;
+    margin: 10px;
 }
-.colocando__dados{
-    padding: 8px;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    border-radius: 10px;
-    width: 100%;
-}
-.linha{
+hr{
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 100%;
 }
 .fundo{
     width: 100%;
@@ -50,18 +45,18 @@ body{
     position: relative;
     background-position: center 0%;
     background-size: cover;
-    background-image: url(611143ad5376d25b5c01d74356e0b8d9.jpg);
+    background-image: url("nova-quest30183.jpg");
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.titulo1{
+h1{
     text-align: center;
-    margin-top: -35px ;
+    top: 10px ;
     font-size: 45px;
     color: white;
 }
-.titulo2{
+h2{
     float: center;
     text-align: center;
     top: 0;
@@ -69,7 +64,7 @@ body{
     color: white; 
     margin-bottom: 30px;
 }
-.botao{
+button{
     background-color: dodgerblue;
     border: none;
     padding: 15px;
@@ -77,8 +72,9 @@ body{
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    font-size: 20px;
 }
-.botao:hover{
+.button:hover{
     background-color: deepskyblue;
 }
 header{
@@ -95,53 +91,53 @@ header{
     font-weight: bold;
     margin-right: 15px;
 }
-@media screen and (max-width: 375px){
-    .Senha{
-        margin-top: 9%;
-        padding: 9%;
-    }
-    .titulo1{
-        margin-top: -30px;
-    }
+.form-control input:valid{
+    border: 3px solid #4ECA64;
+}
+.form-control input:invalid{
+    border: 3px solid #DB5A5A;
+}
+
+@media screen and (max-width: 414px){
     input{
-        padding: 5px;
+        padding: 4px;
+    }
+    h1{
+        font-size: 25px;
+        padding: 10px;
+    }
+    h2{
+        font-size: 20px;
     }
 }
-@media screen and (max-width: 414px){
-    .menu a{
-        margin-right: 15px;
-    }
-    .Senha{
-        margin-top: 9%;
-        padding: 10%;
-    }
+@media screen and (max-width: 375px){
     input{
-        padding: auto;
-        margin-bottom: -5px;
+        padding: 4px;
+        display: flex;
     }
-    .titulo1{
+    h1{
         font-size: 25px;
-        padding: 35px;
-        margin-top: 5%;
+        padding: 10px;
     }
-    .titulo2{
+    h2{
         font-size: 20px;
+    }
+    .Cadastro{
+        margin-top: 60px;
+        padding: -20px;
     }
 }
 @media screen and (max-width: 320px){
-    .Senha{
-        margin-top: 9%;
-        padding: 7%;
+    .Cadastro{
+        padding: -20px;
     }
-    input{
-        padding: -10px;
+    h1{
+        font-size: 15px;
     }
-    .titulo1{
-        font-size: 20px;
-        margin-top: 0%;
-
+    h2{
+        font-size: 15px;
     }
-    .titulo2{
-        font-size: 20px;
+    button{
+        padding: 4px;
     }
 }

@@ -7,14 +7,14 @@ body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.bg{
+.corpo{
     background-image: url("../img/20160710_mm18_NovaQuest_026.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-header{
+.menu__principal{
     padding: 20px 0;
 }
 .menu{
@@ -42,66 +42,40 @@ a:hover{
     background-repeat: no-repeat;
     color: white;
 }
-h1{
+.titulo{
     text-align: center;
     top: 10px ;
     font-size: 45px;
     color: white;
     margin-top: 50px;
 }
-h2{
+.titulo1__produto{
     font-size: 30px;
     text-align: center;
     padding: 10px;
     
 }
-h3{
+.titulo2__produto{
     font-size: 30px;
     text-align: center;
     padding: 10px;    
 }
-h4{
+.titulo3__produto{
     font-size: 30px;
     text-align: center;
     padding: 10px;
 }
-.imagem__produto1{
-    margin-left: 30px;
-    padding: 50px;
-    font-size: 25px;
-}
-.imagem__produto2{
-    margin-left: 60px;
-    padding: 50px;
-    font-size: 25px;
-}
-.imagem__produto3{
-    margin-left: 15px;
-    padding: 50px;
-    font-size: 25px;
-}
-img{
-    width: 50%;
-    height: 50%;    
+.imagens{
+    width: 40%;
+    height: 40%;    
     clear: both;    
     border-radius: 15px;
     background-color: gray;
+    margin-top: 3%;
 }
-a{
+.ancora{
     text-decoration: none;
     color: white;
-}
-.picture{
-    padding: 20px;
-    display: flex;
-    float: left;
-    justify-content: space-between;
-    padding-right: 100px;
-    padding-bottom: 15px;
-    font-size: 20px;
-    height: 100px;
-    width: 100px;
-    position: absolute;
 }
 .texto{
     padding: 10px;
@@ -109,6 +83,7 @@ a{
     position: relative;
     margin-left: 10px;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (max-width: 414px){
     .menu{

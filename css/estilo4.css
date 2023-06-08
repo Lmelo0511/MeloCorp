@@ -2,7 +2,7 @@ body{
     height: 100%;
     margin: 0;
 }
-.bg{
+.corpo{
     background-image: url("../img/20160710_mm18_NovaQuest_001.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+.menu__principal{
     padding: 20px 0;
 }
 .menu{
@@ -27,7 +27,7 @@ header{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 11px;
 }
 .Login{
     position: absolute;
@@ -38,7 +38,7 @@ header{
     border-radius: 15px;
     padding: 35px;
 }
-input{
+.colocando__dados{
     padding: 15px;
     border: none;
     outline: none;
@@ -46,17 +46,17 @@ input{
     border-radius: 10px;
     width: 100%;
 }
-hr{
+.linha{
     margin-top: 10%;
     margin-bottom: 10%;
 }
-p{
+.pergunta{
     color: white;
     font-size: 14px;
     text-align: center;
     margin-top: 20%;
 }
-a{
+.atalho{
     color: white;
     font-weight: bolder;
     text-decoration: none;
@@ -64,7 +64,7 @@ a{
 a:hover{
     color: dodgerblue;
 }
-button{
+.botao{
     background-color: dodgerblue;
     border: none;
     padding: 15px;
@@ -87,13 +87,21 @@ button{
     background-repeat: no-repeat;
     color: white;
 }
-h1{
+.titulo{
     text-align: center;
-    font-size: 45px;
+    font-size: 25px;
     color: white;
     margin-top: 50px;
 }
-h2{
+.titulo1{
+    float: center;
+    text-align: center;
+    top: 0;
+    font-size: 35px;
+    color: white; 
+    margin-bottom: 30px;
+}
+.titulo2{
     float: center;
     text-align: center;
     top: 0;
@@ -107,6 +115,10 @@ h2{
         justify-content: center;
         font-size: 15px;
     }
+    .titulo1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
 }
 @media screen and (max-width: 390px){
     .menu{
@@ -119,17 +131,14 @@ h2{
         margin-top: 60px;
 
     }
-    h1{
-        margin-top: 20px;
-    }
-    input{
+    .colocando__dados{
         padding: 4px;
     }
-    h1{
+    .titulo1{
         font-size: 25px;
-        padding: -20px;
+        margin-top: 20px;
     }
-    h2{
+    .titulo2{
         font-size: 20px;
     }
 }
@@ -144,17 +153,14 @@ h2{
         margin-top: 60px;
 
     }
-    h1{
-        margin-top: 15px;
-    }
-    input{
+    .colocando__dados{
         padding: 4px;
     }
-    h1{
+    .titulo1{
         font-size: 25px;
-        padding: -20px;
+        margin-top: 20px;
     }
-    h2{
+    .titulo2{
         font-size: 20px;
     }
 }
@@ -167,15 +173,16 @@ h2{
     }
     .Login{
         padding: -50px;
+        margin-top: 8%;
     }
-    h1{
-        font-size: 15px;
+    .titulo1{
+        font-size: 20px;
         padding: -25%;
     }
-    h2{
+    .titulo2{
         font-size: 15px;
     }
-    button{
+    .botao{
         padding: 8px;
     }
 }

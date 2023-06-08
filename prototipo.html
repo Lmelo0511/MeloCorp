@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="CSS/prototipo.css">
+    <title>Seu Cadastro</title>  
+</head>
+<body class="bg">
+
+<header>
+    <div class="menu">
+        <a href="site4.html">Voltar</a>
+    </div>
+
+    <script src="index.js"></script>
+
+</header>
+    <h1>Seu Cadastro</h1>
+    <div class="Cadastro">
+        <h2>Cadastro</h2>
+        <form class="form" method="post" action="processa_formulario.php">
+            <div class="form-control">
+                <input type="text" id="Username" name="Username" placeholder="Nome Completo:" required>
+                <label for="Username"></label>
+                <input type="date" id="Data" name="Data_de_Nascimento" placeholder="Data_de_Nascimento:" required>  
+                <label for="Data"></label>         
+            </div>
+            <div class="form-control">
+                <input type="email" id="Email" name="Email" placeholder="Email:" required>
+                <label for="Email"></label>
+                <input type="number" id="Number" name="Number" placeholder="CPF:" required>
+                <label for="Numero"></label>
+            </div>
+            <div class="form-control">
+                <input type="password" id="Codigo" name="Codigo" placeholder="Senha:" maxlength="8" required>
+                <label for="Codigo"></label>
+                <input type="password" id="ConfirmeCodigo" name="ConfirmeCodigo" placeholder="Confirme sua Senha:" maxlength="8" required>
+                <label for="ConfirmeCodigo"></label>
+            </div>
+            <hr>
+            <button type="submit" name="acao">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        window.location.href = "obrigado.html";
+    </script>
+    
+
+</html>
