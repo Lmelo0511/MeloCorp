@@ -57,7 +57,7 @@ body{
 }
 .titulo1{
     text-align: center;
-    margin-top: -35px ;
+    margin-top: 5% ;
     font-size: 45px;
     color: white;
 }
@@ -84,10 +84,14 @@ body{
 header{
     padding: 20px 0;
 }
+.menu__principal{
+    padding: 0.1px 0;
+}
 .menu{
-    padding-top: 30px;
+    padding: 2%;
+    background-color: gray;
+    position: absolute;
     width: 100%;
-    text-align: right;
 }
 .menu a{
     color: white;
@@ -95,53 +99,93 @@ header{
     font-weight: bold;
     margin-right: 15px;
 }
-@media screen and (max-width: 375px){
-    .Senha{
-        margin-top: 9%;
-        padding: 9%;
-    }
-    .titulo1{
-        margin-top: -30px;
-    }
-    input{
-        padding: 5px;
-    }
+.Logo{
+    float: right;
+    font-size: 20px;
 }
-@media screen and (max-width: 414px){
-    .menu a{
-        margin-right: 15px;
-    }
-    .Senha{
-        margin-top: 9%;
-        padding: 10%;
-    }
-    input{
-        padding: auto;
-        margin-bottom: -5px;
+@media screen and (max-width: 414px) {
+    .menu{
+        position: absolute;
+        padding-top: 5%;
+        padding-left: 11%;
+        width: 100%;
+        background-color: gray;
+        font-size: 12px;
     }
     .titulo1{
         font-size: 25px;
-        padding: 35px;
-        margin-top: 5%;
+        padding: 10%;
     }
-    .titulo2{
-        font-size: 20px;
+    .Senha{
+        top: 60%;
+        padding: 25px;
+    }
+    .colocando__dados{
+        padding: 10px;
+    }
+    .botao{
+        padding: 10px;
+    }
+    .voltar{
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 320px){
-    .Senha{
-        margin-top: 9%;
-        padding: 7%;
+@media screen and (max-width: 390px) {
+    .menu{
+        position: absolute;
+        padding-top: 5%;
+        padding-left: 12%;
+        width: 100%;
+        background-color: gray;
+        font-size: 12px;
     }
-    input{
-        padding: -10px;
+}
+@media screen and (max-width: 375px) {
+    .menu{
+        position: absolute;
+        padding-top: 5%;
+        padding-left: 7.5%;
+        width: 100%;
+        background-color: gray;
+        font-size: 12px;
     }
     .titulo1{
         font-size: 20px;
-        margin-top: 0%;
-
     }
-    .titulo2{
-        font-size: 20px;
+    .Senha{
+        top: 60%;
+        padding: 10px;
+    }
+    .colocando__dados{
+        padding: 10px;
+    }
+    .botao{
+        padding: 10px;
+    }
+    .voltar{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .menu{
+        position: absolute;
+        padding-top: 5%;
+        padding-left: 7%;
+        width: 100%;
+        background-color: gray;
+        font-size: 10px;
+    }
+    .titulo1{
+        font-size: 18px;
+    }
+    .Senha{
+        top: 62%;
+        padding: 15px;
+    }
+    .colocando__dados{
+        padding: 10px;
+    }
+    .botao{
+        padding: 10px;
     }
 }
