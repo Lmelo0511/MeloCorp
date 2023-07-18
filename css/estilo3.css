@@ -98,6 +98,9 @@ a:hover{
         background-color: gray;
         font-size: 12px;
     }
+    .imagens{
+        width: 5em;
+    }
 }
 @media screen and (max-width: 390px) {
     .menu{
@@ -107,6 +110,9 @@ a:hover{
         width: 100%;
         background-color: gray;
         font-size: 12px;
+    }
+    .imagens{
+        width: 5em;
     }
 }
 @media screen and (max-width: 375px) {
@@ -118,6 +124,9 @@ a:hover{
         background-color: gray;
         font-size: 12px;
     }
+    .imagens{
+        width: 5em;
+    }
 }
 @media screen and (max-width: 320px) {
     .menu{
@@ -127,5 +136,8 @@ a:hover{
         width: 100%;
         background-color: gray;
         font-size: 10px;
+    }
+    .imagens{
+        width: 4em;
     }
 }
