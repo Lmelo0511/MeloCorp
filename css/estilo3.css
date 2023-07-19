@@ -54,40 +54,38 @@ a:hover{
     color: white;
     margin-top: 50px;
 }
-.titulo1__produto{
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-    
-}
-.titulo2__produto{
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;    
-}
-.titulo3__produto{
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
+.titulo__produto{
+    margin: 10px;
+    position: absolute;
+    font-family: sans-serif;
+    margin-top: 14em;
 }
 .imagens{
-    width: 30%;    
-    clear: both;    
-    border-radius: 15px;
+    width: 20%;
+    height: 40%;
+    margin: 10px;
+    position: absolute;
     background-color: gray;
-    margin-top: 3%;
+    border-radius: 15px;
 }
-.ancora{
+
+.container__caixa {
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    width: 33%;
+}
+.ancora {
     text-decoration: none;
     color: white;
 }
-.texto{
-    padding: 10px;
-    justify-content: space-between;
-    position: relative;
-    margin-left: 10px;
-    font-size: 20px;
+.texto {
+    margin: 10px;
+    position: absolute;
+    margin-left: 1%;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25em;
 }
 @media screen and (max-width: 414px) {
     .menu{
@@ -99,20 +97,13 @@ a:hover{
         font-size: 12px;
     }
     .imagens{
-        width: 5em;
+        width: 70%;
+        display: block;
     }
-}
-@media screen and (max-width: 390px) {
-    .menu{
-        position: absolute;
-        padding-top: 5%;
-        padding-left: 12%;
+
+    .container__caixa {
         width: 100%;
-        background-color: gray;
-        font-size: 12px;
-    }
-    .imagens{
-        width: 5em;
+        height: 32em;
     }
 }
 @media screen and (max-width: 375px) {
@@ -123,9 +114,15 @@ a:hover{
         width: 100%;
         background-color: gray;
         font-size: 12px;
+
+    .container__caixa{
+        width: 100%;
+        height: 32rem;
     }
+
     .imagens{
-        width: 5em;
+        width: 70%;
+        display: block;
     }
 }
 @media screen and (max-width: 320px) {
@@ -137,7 +134,13 @@ a:hover{
         background-color: gray;
         font-size: 10px;
     }
+    .container__caixa{
+        width: 100%;
+        height: 32rem;
+    }
+
     .imagens{
-        width: 4em;
+        width: 70%;
+        display: block;
     }
 }
