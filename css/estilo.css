@@ -3,11 +3,11 @@ body{
     margin: 0;
 }
 .corpo{
-    background-image: url("../img/nova-quest30183.jpg");
+    background-image: url("../img/nova-quest38253.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;  
 }
 *{
     margin: 0;
