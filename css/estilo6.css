@@ -39,6 +39,7 @@ body{
     font-size: 15px;
     border-radius: 10px;
     width: 100%;
+    margin-top: 5%;
 }
 .linha{
     margin-top: 10%;
@@ -60,6 +61,7 @@ body{
     margin-top: 5% ;
     font-size: 45px;
     color: white;
+    line-height: 3em; 
 }
 .titulo2{
     float: center;
@@ -114,7 +116,6 @@ header{
     }
     .titulo1{
         font-size: 25px;
-        padding: 10%;
     }
     .Senha{
         top: 60%;
