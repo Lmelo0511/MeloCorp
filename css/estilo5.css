@@ -134,31 +134,16 @@ hr{
 }
 @media screen and (max-width: 390px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 12%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
 }
 @media screen and (max-width: 375px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7.5%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
 }
 @media screen and (max-width: 320px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7%;
-        width: 100%;
-        background-color: gray;
-        font-size: 10px;
     }
 }
