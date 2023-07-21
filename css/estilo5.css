@@ -23,6 +23,7 @@ body{
     transform: translate(-50%,-50%);
     border-radius: 15px;
     padding: 20px;
+    width: max-content;
 }
 .colocando__dados{
     padding: 19px;
