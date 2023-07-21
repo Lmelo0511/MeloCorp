@@ -135,28 +135,16 @@ a:hover{
 }
 @media screen and (max-width: 390px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 12%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
 }
 @media screen and (max-width: 375px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7.5%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
     .Login{
         top: 60%;
-    }
-    .titulo1{
-        font-size: 20px;
+        padding: 15px;
     }
     .colocando__dados{
         padding: 10px;
@@ -164,22 +152,14 @@ a:hover{
 }
 @media screen and (max-width: 320px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7%;
-        width: 100%;
-        background-color: gray;
-        font-size: 10px;
     }
     .titulo1{
         font-size: 15px;
         padding: 0px;
     }
-    .colocando__dados{
-        padding: 5px;
-    }
     .Login{
-        top: 65%;
+        top: 57%;
         padding: 15px;
     }
 }
