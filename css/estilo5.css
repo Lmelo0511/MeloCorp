@@ -113,6 +113,7 @@ hr{
     .Cadastro{
         top: 60%;
         padding: 25px;
+        width: auto;
     }
     .colocando__dados{
         padding: 10px;
@@ -149,6 +150,7 @@ hr{
     .Cadastro{
         top: 60%;
         padding: 10px;
+        width: auto;
     }
     .colocando__dados{
         padding: 10px;
@@ -175,6 +177,7 @@ hr{
     .Cadastro{
         top: 58%;
         padding: 10px;
+        width: auto;
     }
     .colocando__dados{
         padding: 5px;
