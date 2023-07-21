@@ -134,60 +134,28 @@ header{
 }
 @media screen and (max-width: 390px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 12%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
 }
 @media screen and (max-width: 375px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7.5%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
     }
     .titulo1{
         font-size: 20px;
     }
     .Senha{
-        top: 60%;
-        padding: 10px;
-    }
-    .colocando__dados{
-        padding: 10px;
-    }
-    .botao{
-        padding: 10px;
-    }
-    .voltar{
-        font-size: 15px;
+        top: 57%;
     }
 }
 @media screen and (max-width: 320px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
         padding-left: 7%;
-        width: 100%;
-        background-color: gray;
-        font-size: 10px;
     }
     .titulo1{
         font-size: 18px;
     }
     .Senha{
-        top: 62%;
-        padding: 15px;
-    }
-    .colocando__dados{
-        padding: 10px;
-    }
-    .botao{
-        padding: 10px;
+        top: 57%;
     }
 }
