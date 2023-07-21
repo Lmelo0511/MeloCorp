@@ -116,7 +116,14 @@ hr{
         width: auto;
     }
     .colocando__dados{
-        padding: 10px;
+        padding: 19px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 7em;
+        margin-top: 15px;
+        margin: 10px;
     }
     .botao{
         padding: 10px;
@@ -153,7 +160,13 @@ hr{
         width: auto;
     }
     .colocando__dados{
-        padding: 10px;
+        padding: 19px;
+        border: none;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 7em;
+        margin-top: 15px;
+        margin: 10px;
     }
     .botao{
         padding: 5px;
@@ -180,7 +193,13 @@ hr{
         width: auto;
     }
     .colocando__dados{
-        padding: 5px;
+        padding: 19px;
+        border: none;
+        font-size: 15px;
+        border-radius: 10px;
+        width: 7em;
+        margin-top: 15px;
+        margin: 10px;
     }
     .botao{
         padding: 5px;
