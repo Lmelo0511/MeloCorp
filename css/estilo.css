@@ -65,12 +65,7 @@ a:hover{
 }
 @media screen and (max-width: 390px) {
     .menu{
-        position: absolute;
-        padding-top: 5%;
-        padding-left: 12%;
-        width: 100%;
-        background-color: gray;
-        font-size: 12px;
+        padding-left: 10%;
     }
 }
 @media screen and (max-width: 375px) {
