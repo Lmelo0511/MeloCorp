@@ -113,9 +113,6 @@ a:hover{
     }
 }
 @media screen and (max-width: 375px) {
-    .corpo{
-        background-size: cover;
-    }
     .menu{
         padding-left: 7.5%;
     }
