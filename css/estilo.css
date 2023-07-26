@@ -64,6 +64,9 @@ a:hover{
     }
 }
 @media screen and (max-width: 390px) {
+    .corpo{
+        background-attachment: fixed;
+    }
     .menu{
         padding-left: 10%;
     }
