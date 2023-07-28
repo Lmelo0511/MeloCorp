@@ -130,7 +130,6 @@ a:hover{
     }
     .titulo1{
         font-size: 20px;
-        padding-top: 15%;
     }
 }
 @media screen and (max-width: 390px) {
@@ -145,7 +144,6 @@ a:hover{
     .Login{
         top: 57%;
         padding: 15px;
-        padding-top: 0%;
     }
     .colocando__dados{
         padding: 10px;
