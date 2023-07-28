@@ -154,6 +154,7 @@ a:hover{
 @media screen and (max-width: 320px) {
     .menu{
         padding-left: 7%;
+        font-size: 10px;
     }
     .titulo1{
         font-size: 15px;
