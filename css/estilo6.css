@@ -18,11 +18,11 @@ body{
 .Senha{
     position: absolute;
     background-color: rgba(105, 105, 105, 1);
-    top: 60%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
-    padding: 40px;
+    padding: 30px;
 }
 .menu__principal{
     padding: 8px;
@@ -59,17 +59,9 @@ body{
 .titulo1{
     text-align: center;
     margin-top: 5% ;
-    font-size: 45px;
+    font-size: 30px;
     color: white;
     line-height: 3em; 
-}
-.titulo2{
-    float: center;
-    text-align: center;
-    top: 0;
-    font-size: 35px;
-    color: white; 
-    margin-bottom: 30px;
 }
 .botao{
     background-color: dodgerblue;
