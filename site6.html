@@ -4,26 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/estilo6.css">
+        <link type="text/css" rel="stylesheet" href="./css/estilo6.css">
         <title>Seu Cadastro</title>  
     </head>
     <body class="corpo">
         <header class="menu__principal">
             <div class="menu">
-                <a href="site4.html">Voltar</a>
+                <a href="./site4.html">Voltar</a>
             </div>
         </header>
             <div class="Senha">
                 <h2 class="titulo1">Nova Senha</h2>
-                <input class="colocando__dados" type="text" placeholder="Nome Completo:">
+                <input class="colocando__dados" type="text" placeholder="Nome Completo:"><span class="required">*</span>
                 <br><br>
-                <input class="colocando__dados" type="emai" placeholder="E-mail:">
+                <input class="colocando__dados" id="email" type="emai" placeholder="E-mail:"><span class="required">*</span>
                 <br><br>
-                <input class="colocando__dados" type="password" placeholder="Nova Senha:">
+                <input class="colocando__dados" id="senha1" type="password" placeholder="Nova Senha:"><span class="required">*</span>
                 <br><br>
-                <input class="colocando__dados" type="password" placeholder="Confirme sua Senha:">
+                <input class="colocando__dados" id="senha2" type="password" placeholder="Confirme sua Senha:"><span class="required">*</span>
                 <hr class="linha">
-                <button class="botao" type="button" onclick="login()">Enviar</button>
+                <button class="botao" id="botao" type="button">Enviar</button>
             </div>
+        <script src="./JS/recuperarSenha.js"></script>    
     </body>
 </html>

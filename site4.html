@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/estilo4.css">
+        <link type="text/css" rel="stylesheet" href="./css/estilo4.css">
         <title>Seu Cadastro</title>  
     </head>
     <body class="corpo">
@@ -18,18 +18,19 @@
         </header>
             <div class="Login">
                 <h2 class="titulo1">Seu Login</h2>
-                <input class="colocando__dados" type="text" placeholder="Usuario:">
+                <input class="colocando__dados" id="email" type="text" placeholder="E-mail:" maxlength="30">
                 <br><br>
-                <input class="colocando__dados" type="password" placeholder="Senha:">
+                <input class="colocando__dados" id="senha"  type="password" placeholder="Senha:" maxlength="10">
                 <hr class="linha">
-                <button class="botao" type="button" onclick="login()">Enviar</button>
+                <button id="botao" class="botao" type="button">Enviar</button>
                 <p class="pergunta">
                     Não tem uma Conta?
-                    <a class="atalho" href="site5.html">Cadastre-se</a>
+                    <a class="atalho" href="./site5.html">Cadastre-se</a>
                 </p>
                 <p class="pergunta">
-                    <a class="atalho" href="site6.html">Esqueci Minha Senha</a>
+                    <a class="atalho" href="./site6.html">Esqueci Minha Senha</a>
                 </p>
             </div>
+        <script src="./JS/seuLogin.js"></script>    
     </body>
 </html>

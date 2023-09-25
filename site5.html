@@ -4,31 +4,32 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css/estilo5.css">
+        <link type="text/css" rel="stylesheet" href="./css/estilo5.css">
         <title>Seu Cadastro</title>  
     </head>
     <body class="corpo">
         <header class="menu__principal">
             <div class="menu">
-                <a class="voltar" href="site4.html">Voltar</a>
+                <a class="voltar" href="./site4.html">Voltar</a>
             </div>
         </header>
-            <div class="Cadastro">
-                <h2 class="titulo1">Seu Cadastro</h2>
-                <div>
-                    <input class="colocando__dados" type="text" placeholder="Nome Completo:">
-                    <input class="colocando__dados" type="date" placeholder="Data de Nascimento::">           
-                </div>
-                <div>
-                    <input class="colocando__dados" type="email" placeholder="E-mail:">
-                    <input class="colocando__dados" type="number" placeholder="CPF:">
-                </div>
-                <div>
-                    <input class="colocando__dados" type="password" placeholder="Senha:">
-                    <input class="colocando__dados" type="password" placeholder="Confirme sua Senha:">
-                </div>
-                <hr>
-                <button class="botao" type="button" onclick="login()">Enviar</button>
+        <form class="Cadastro">
+            <h2 class="titulo1">Seu Cadastro</h2>
+            <div class="campos">
+                <input class="colocando__dados" type="text"  placeholder="Nome Completo:" maxlength="35"><span class="required">*</span>
+                <input class="colocando__dados" type="date"  placeholder="Data de Nascimento:" maxlength="8"><span class="required">*</span>           
             </div>
+            <div class="campos">
+                <input class="colocando__dados" id="email" type="email"  placeholder="E-mail:" maxlength="30"><span class="required">*</span>
+                <input class="colocando__dados" id="cpf" type="text"  placeholder="CPF:" maxlength="15"><span class="required">*</span>
+            </div>
+            <div class="campos">
+                <input class="colocando__dados" id="senha1" type="password"  placeholder="Senha:" maxlength="10"><span class="required">*</span>
+                <input class="colocando__dados" id="senha2" type="password"  placeholder="Confirme sua Senha:" maxlength="10"><span class="required">*</span>
+            </div>
+            <hr>
+            <button id="botao" class="botao" type="button">Enviar</button>
+        </form>
+        <script src="./JS/seuCadastro.js"></script>
     </body>
 </html>
