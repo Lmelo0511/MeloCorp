@@ -84,6 +84,14 @@ a:hover{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 25em;
 }
+@media screen and (max-width: 1050px){
+    .container__caixa {
+        width: 38%;
+    }
+    .imagens{
+        width: 37.5%;
+    }
+}
 @media screen and (max-width: 414px) {
     .menu{
         position: absolute;
